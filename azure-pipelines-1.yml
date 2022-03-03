@@ -16,7 +16,7 @@ variables:
   containerRegistry: 'mybnkacr.azurecr.io'
   dockerfilePath: '**/myNewDadApp/Dockerfile'
   tag: '$(Build.BuildId)'
-  imagePullSecret: '***REMOVED***'
+  imagePullSecret: ''
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
